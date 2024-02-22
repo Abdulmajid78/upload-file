@@ -16,6 +16,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    "main",
 ]
 
 MIDDLEWARE = [
@@ -91,3 +93,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+TELEGRAM_BOT_TOKEN = "6521712428:AAEMraIJAvj2aAx9tq4sz_4dgLBaZIrffFo"
+TELEGRAM_CHAT_ID = "-1002015373573"
